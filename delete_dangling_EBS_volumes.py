@@ -15,7 +15,7 @@ def lambda_handler(event, context):
             attached_ids.add(attachment['VolumeId'])
     
     # Delete unattached volumes
-    for volume in volumes:
+    for volume in volumes: #get the volumes
         if volume['VolumeId'] not in attached_ids:
             try:
                 ec2.delete_volume(VolumeId=volume['VolumeId'])
@@ -59,4 +59,6 @@ def lambda_handler(event, context):
         '...': '...',
     },
 }
+
+#geting the desired sets
 """
