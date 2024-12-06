@@ -1,0 +1,28 @@
+question:
+
+Which build  tool are you aware of and what build tools are used in your project?
+
+Answer : 
+
+ * Build tools are used to package and ship application code.
+ * Raw code files can be shipped to servers or clients.
+ * Different programming languages have different build tools.
+ * This information might be relevant for follow-up questions about Jenkins.
+
+
+Build Tools-
+-----------------------
+
+ * Java:
+ ----------
+   * Maven
+   * Gradle
+
+ * Nodejs:
+ ------------
+   * npm
+
+ * Python:
+ ------------------------
+   * Pybuilder
+

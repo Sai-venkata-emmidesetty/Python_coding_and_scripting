@@ -1,0 +1,26 @@
+question :
+--------------
+what is a package in python?
+
+answer :
+--------------------------
+
+Imagine you have a toolbox. Inside, you have different tools like a hammer, screwdriver, and pliers. Each tool has a specific job.
+
+In Python, a package is like a bigger toolbox that holds many smaller toolboxes, each with its own set of tools. These smaller toolboxes are called modules.
+
+Why use packages?
+
+Organization: It keeps your code clean and easy to understand.
+Reusability: You can use the same package in different projects.
+Sharing: You can share your packages with others.
+Example:
+
+Let's say you're building a game. You might have a package called game_tools. Inside, you could have modules for:
+
+characters.py: Contains functions to create and manage characters.
+levels.py: Contains functions to design and load game levels.
+graphics.py: Contains functions to draw graphics on the screen.
+When you need to create a character, you can import the create_character function from the characters module within the game_tools package.
+
+This way, your code is well-organized and easy to maintain.
