@@ -1,7 +1,7 @@
 #reraarange given array into two parts first part will have even numbers and second half will have odd numbers of given array in python
 def re_arrange(array,right,left):  #this is the optimized function.Rearranges the array without creating new lists, saving memory.
 #Space complexity: O(1).
-#Time Complexity:Only a single pass through the array is needed, making it O(n)
+#Time Complexity:Only a single pass through the array is needed, making it O(n) time complexity
     while left < right:
         while left < right and array[left]%2==0:
             left+=1
